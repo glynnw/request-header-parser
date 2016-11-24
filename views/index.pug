@@ -1,0 +1,14 @@
+doctype html
+html
+    header
+        meta(char-set='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        title Request Header Parser
+        link(href='' rel='stylesheet')
+    body
+        h1 Request Header Parser
+        p Returns a json object populated with the requester's IP address, language, and OS information.
+        h2 Usage:
+        p Go to the url: <code>#{host}/api/whoami</code>
+        h2 Example output:
+        p <code>{"ipaddress":"0.0.0.0","language":"en-US","software":"X11; Linux x86_64"}
